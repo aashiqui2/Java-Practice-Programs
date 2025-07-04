@@ -1,4 +1,3 @@
-
 //! Write a program to check both array are equal or not?
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,8 +1,7 @@
 //! Write a program to convert the number to words in string?.
-
-
 import java.util.Scanner;
-public class Demo8 {
+
+public class Demo19 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -19,7 +18,7 @@ public class Demo8 {
             int u = n % 10;// last digit
             int tt = n / 10;
             int t = tt % 10;// second digit
-            int h = n / 100;// fist digit
+            int h = n / 100;// first digit
             String uw[] = { " ", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
                     "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen",
                     "Ninteen" };

@@ -19,8 +19,27 @@ public class Demo3 {
         return true;
         //! Time Complexity: O(N)
     }
+
+    //! Optimal Approach
+    public boolean check(int[] nums) {
+        int n=nums.length;
+        int count=0;
+        for(int i=0;i<n;i++)
+        {
+            if(nums[i]>nums[(i+1)%n])
+            {
+                count++;
+            }
+        }
+        if(count<=1)
+        {
+            return true;
+        }
+        return false;
+    }
     public static void main(String args[]) {
-        int arr[] = { 1, 2, 3, 4, 5 }, n = 5;
+        //int arr[] = { 1, 2, 3, 4, 5 }, n = 5;
+        int arr[] = { 3,4,5,1,2}, n = 5;
         System.out.println(isSorted(arr, n));
     }
 }
