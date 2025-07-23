@@ -1,6 +1,8 @@
 //! Write a program to Reverse an array?
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Demo15 {
 
@@ -51,7 +53,17 @@ public class Demo15 {
 
     //! Using Inbuilt Methods
     static void reverseArray(Integer arr[]) {
-       Collections.reverse(Arrays.asList(arr));
+       Collections.reverse(Arrays.asList(arr)); 
+   }
+
+   //! Java 8+ Stream
+   static void reverseArrayStream(int arr[])
+   {
+       List<Integer> reversed=Arrays.stream(arr)
+       .boxed()
+       .sorted(Collections.reverseOrder())
+       .collect(Collectors.toList()); 
+       System.out.println(reversed);
    }
 
     public static void main(String[] args) {
@@ -62,7 +74,9 @@ public class Demo15 {
         // printArray(arr, n);
         
         Integer a[]={5,4,3,2,1};
-        reverseArray(a);
-        printArray(a, n);
+        //reverseArray(a);
+        //printArray(a, n);
+
+        reverseArrayStream(arr);
     }
 }

@@ -30,7 +30,7 @@ public class Demo13 {
         int start = 1, end = no, result = 0;
         while (start <= end) {
             int mid = start + (end - start) / 2;
-            if (mid <= no / mid) {
+            if (mid <= no / mid) {//or (mid*mid<=no)
                 result = mid;
                 start = mid + 1;
             } else {

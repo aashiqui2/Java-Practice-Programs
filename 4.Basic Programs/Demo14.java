@@ -25,7 +25,7 @@ public class Demo14 {
                 box = box * base;
             }
             base = base * base;
-            power >>= 1;
+            power >>= 1;//power=power/2
         } */
         System.out.println(box);
     }

@@ -64,3 +64,5 @@ Problem: [258. Add Digtis](https://leetcode.com/problems/add-digits/description/
 Problem: [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
 
 32. Write a program to find the triplet sum of a given number?
+33. Write a program to find the binary to decimal and decimal to binary?
+34. 
