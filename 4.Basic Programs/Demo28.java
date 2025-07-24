@@ -1,60 +1,52 @@
 //! Write a program to check whether the given array is subset of the original array?
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Demo28 {
     public static void main(String[] args) {
-        
-        int a[]={11,7,1,13,21,3,7,3};
-        int b[]={11,3,7,1,7};
-        if(isSubset(a,b))
-        {
+        // Example arrays; you can change them to test other cases
+        int[] A = {5, 8, 12, 7, 7, 3, 8, 10};
+        int[] B = {7, 8, 3};
+
+        if (isSubset(A, B)) {
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("Not");
         }
     }
-    /* public static boolean isSubset(int[] a,int [] b)
-    {
-        for(int i=0;i<b.length;i++)
-        {
-            boolean found=false;
-            for(int j=0;j<a.length;j++)
-            {
-                if(a[j]==b[i])
-                {
-                    found=true;
+
+    //! Approach 1
+    public static boolean isSubset(int[] A, int[] B) {
+        boolean[] used = new boolean[A.length];
+        for (int i = 0; i < B.length; i++) {
+            boolean found = false;
+            for (int j = 0; j < A.length; j++) {
+                if (!used[j] && B[i] == A[j]) {
+                    used[j] = true;
+                    found = true;
                     break;
                 }
             }
-            if(!found)
-            {
-                return false;
-            }
-        }
-        return true;
-    } */
-
-    //Approach 2:
-    public static boolean isSubset(int a[],int b[])
-    {
-        HashMap<Integer,Integer> hm=new HashMap<>();
-        for(int num:a)
-        {
-            hm.put(num,hm.getOrDefault(num, 0)+1);
-        }
-        // System.out.println(hm);
-        for(int num:b)
-        {
-            if(hm.containsKey(num) && hm.get(num)>0)
-            {
-                hm.put(num,hm.get(num)-1);
-            }
-            else{
+            if (!found) {
                 return false;
             }
         }
         return true;
     }
+
+    //! Approach 2
+    /* public static boolean isSubset(int[] A, int[] B) {
+        Map<Integer, Integer> freq = new HashMap<>();
+        for (int num : A) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+
+        for (int num : B) {
+            if (freq.getOrDefault(num, 0) == 0) {
+                return false; 
+            }
+            freq.put(num, freq.get(num) - 1);
+        }
+        return true;
+    } */
 }
+

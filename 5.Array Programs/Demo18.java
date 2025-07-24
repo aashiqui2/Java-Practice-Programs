@@ -33,7 +33,7 @@ public class Demo18 {
    */
 
     //! Two pointer Approach
-    /* public static int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int n,int[] nums, int target) {
         Arrays.sort(nums); // sort to apply two-pointer approach
         int left = 0, right = nums.length - 1;
 
@@ -50,11 +50,11 @@ public class Demo18 {
         }
 
         return new int[]{-1, -1}; // not found
-    } */
+    }
     //? Time Complexity :O(n log n)
 
     //! Using Hashing
-     public static int[] twoSum(int n, int []arr, int target) {
+    /*  public static int[] twoSum(int n, int []arr, int target) {
         int[] ans = new int[2];
         ans[0] = ans[1] = -1;
         HashMap<Integer, Integer> mpp = new HashMap<>();
@@ -70,14 +70,15 @@ public class Demo18 {
             mpp.put(arr[i], i);
         }
         return ans;
-    }
+    } */
     //? Time Complexity: O(n)
 
 
     public static void main(String args[]) {
         int n = 5;
-        int[] arr = {2, 6, 5, 8, 11};
-        int target = 14;
+        // int[] arr = {2, 6, 5, 8, 11};
+        int[] arr = {-8,1,4,6,10,45};
+        int target = 16;
         /* String res = twoSum(n, arr, target);
         System.out.println("This is the answer for variant 1: " + res); */
 

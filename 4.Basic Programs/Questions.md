@@ -55,7 +55,7 @@
 
 28. Write a progam to find the count of subset with given sum K?
 
-29. Write a program to find the triplet sum of given array?
+29. Write a program to find the binary to decimal and decimal to binary?
 
 30. Write a program to find the sum of digit until a single digit?
 Problem: [258. Add Digtis](https://leetcode.com/problems/add-digits/description/)
@@ -64,5 +64,7 @@ Problem: [258. Add Digtis](https://leetcode.com/problems/add-digits/description/
 Problem: [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
 
 32. Write a program to find the triplet sum of a given number?
-33. Write a program to find the binary to decimal and decimal to binary?
-34. 
+
+33. Write a program to check the perfect Number ot not?
+
+34. Write a program to print the  Prime Factor of a number?
