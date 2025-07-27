@@ -93,11 +93,10 @@ Problem:[48.Rotate Image](https://leetcode.com/problems/rotate-image/description
 ## 31. Spiral Traversal of Matrix
 Problem:[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
 
-## 32. Sub Array sum equal to K
-Problem:[560. SubArray Sum Equal K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
-
-## 33. Product of array except Itself
+## 32. Product of array except Itself
 Problem:[238. Product of array except Itself](https://leetcode.com/problems/product-of-array-except-self/description/)
+
+## 33. Print the subarray sum equals to k?
 
 
 ## Array Problems (Hard)

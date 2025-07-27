@@ -1,4 +1,3 @@
-//! Write a program to print the Count of divisors? 
 public class Demo3 {
     public static void main(String[] args) {
         count_of_divisor(120);

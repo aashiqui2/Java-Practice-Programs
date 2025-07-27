@@ -1,4 +1,3 @@
-//! Write a program to find the given number is strong number or not?
 public class Demo11 {
     public static void main(String[] args) {
         isStrongNumber(145);

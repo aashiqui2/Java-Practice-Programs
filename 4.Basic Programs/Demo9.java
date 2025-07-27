@@ -1,4 +1,3 @@
-//! Write a program to find the given number is armstrong or not?
 public class Demo9 {
     public static void main(String[] args) {
         isArmstrong(153);

@@ -1,4 +1,3 @@
-//! Write a program to find the triplet sum of a given number?
 import java.util.Arrays;
 public class Demo32 {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-//! Write a program to find the common divisible of 3 and 5 upto 100?
 public class Demo4 {
     public static void main(String[] args) {
         divisible_of_3_and_5();

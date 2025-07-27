@@ -1,4 +1,3 @@
-//! Write a program to remove the duplicate in an given array?
 import java.util.HashSet;
 public class Demo4 {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-
 public class Demo7 {
     /* public static void Rotatetoright(int[] arr, int n, int k) {
         if (n == 0 || k % n == 0) {

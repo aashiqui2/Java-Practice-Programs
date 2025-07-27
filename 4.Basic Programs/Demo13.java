@@ -1,4 +1,3 @@
-//! Write a program to find the square root of a given Number?
 public class Demo13 {
     public static void main(String[] args) {
         find_Square_Root(16);

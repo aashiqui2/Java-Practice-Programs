@@ -1,4 +1,3 @@
-//! Write a program to find the divisor of the given Number?
 public class Demo2{
     public static void main(String[] args) {
         Divisor(60);

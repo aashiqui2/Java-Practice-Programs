@@ -1,4 +1,3 @@
-//! Write a program to remove duplicated in a  sorted array?
 public class Demo23 {
     public static void main(String[] args) {
         int[] sortedArray = { 1, 1, 2, 2, 3, 4, 4, 5, 5, 6 };

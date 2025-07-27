@@ -1,4 +1,3 @@
-//! Write a program to rotate the array left by one place?
 import java.util.*;
 public class Demo5 {
     //! Brute Force Approach

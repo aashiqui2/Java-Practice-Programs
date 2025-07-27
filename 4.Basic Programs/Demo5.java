@@ -1,4 +1,3 @@
-//! Write a program to find the common divisor of the given numbers?
 public class Demo5 {
     public static void main(String[] args) {
         find_common_divisor(4,12);

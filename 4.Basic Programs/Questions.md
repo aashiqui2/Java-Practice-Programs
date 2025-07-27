@@ -53,7 +53,7 @@
 
 27. Write a program to find the dupliacte element count in a array?
 
-28. Write a progam to find the count of subset with given sum K?
+28. Write a program to check whether the given array is subset of the original array?
 
 29. Write a program to find the binary to decimal and decimal to binary?
 

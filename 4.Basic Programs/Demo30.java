@@ -1,4 +1,3 @@
-//! Write a program to find the sum of digit until a single digit? 
 public class Demo30 {
 
     public static void main(String[] args) {

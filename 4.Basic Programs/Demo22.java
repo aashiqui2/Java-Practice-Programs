@@ -1,4 +1,3 @@
-//! Write a program to insert a element in a specified position?
 import java.util.Scanner;
 public class Demo22 {
     public static void main(String[] args) {

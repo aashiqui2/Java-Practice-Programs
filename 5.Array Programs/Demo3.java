@@ -1,4 +1,3 @@
-//! Write a program to check the given array is sorted?
 public class Demo3 {
     //!Brute Force Approach 
     static boolean isSorted(int arr[], int n) {

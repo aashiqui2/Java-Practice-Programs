@@ -1,5 +1,3 @@
-//! Write a program to move all the zeros to the end of the array?
-
 import java.util.ArrayList;
 
 public class Demo8 {

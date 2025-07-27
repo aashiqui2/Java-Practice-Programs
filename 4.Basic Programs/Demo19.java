@@ -1,4 +1,3 @@
-//! Write a program to convert the number to words in string?.
 import java.util.Scanner;
 
 public class Demo19 {

@@ -1,4 +1,3 @@
-//! Write a program to check whether the given array is subset of the original array?
 import java.util.*;
 
 public class Demo28 {

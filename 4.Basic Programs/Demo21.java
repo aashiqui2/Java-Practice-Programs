@@ -1,4 +1,3 @@
-//! Write a program to find the product of two array?
 public class Demo21 {
     public static void main(String[] args) {
         int[] a = { 1, 2, 3, 4, 5, 8, 9 };

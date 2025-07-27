@@ -1,5 +1,3 @@
-
-//! Write a program to find the second Largest Element in an array
 import java.util.Arrays;
 import java.io.*;
 import java.sql.Time;

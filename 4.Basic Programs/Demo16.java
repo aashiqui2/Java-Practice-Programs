@@ -1,4 +1,3 @@
-//! Write a program to find the given string is palindrome  or not?
 public class Demo16 {
     public static void main(String[] args) {
         String str = " ABCDCBA ";

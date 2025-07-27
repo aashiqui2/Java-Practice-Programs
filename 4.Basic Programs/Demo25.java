@@ -1,4 +1,3 @@
-//! Write a program to find the missing and repeated number in a array?
 public class Demo25 {
     public static void main(String[] args) {
         int a[] = { 4, 3, 6, 2, 1, 1 };

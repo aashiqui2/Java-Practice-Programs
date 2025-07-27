@@ -1,4 +1,3 @@
-//! Write a program to find the factorial of a given number?
 public class Demo10 {
     public static void main(String[] args) {
         // find_fact(5);

@@ -1,4 +1,3 @@
-//! Write a program to find the count of digit?
 public class Demo1 {
     public static void main(String[] args) {
         find_count(153);

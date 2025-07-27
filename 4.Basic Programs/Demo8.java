@@ -1,4 +1,3 @@
-//! Write a program to reverse the given Number?
 public class Demo8 {
     public static void main(String[] args) {
         reverse(1234);

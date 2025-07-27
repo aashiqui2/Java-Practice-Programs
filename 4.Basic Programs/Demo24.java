@@ -1,4 +1,3 @@
-//! Write a program to delete a element from the array and return the resized array?
 public class Demo24 {
     public static void main(String[] args) {
         int[] array = { 5,1,2,4,3};

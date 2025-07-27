@@ -1,4 +1,3 @@
-//! Write a program to find the LCM and GCD of the given numbers?
 public class Demo6 {
     public static void main(String[] args) {
         LCM(12, 18);

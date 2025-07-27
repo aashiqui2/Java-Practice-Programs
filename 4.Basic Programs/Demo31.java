@@ -1,4 +1,3 @@
-//! Write a program to store the binary number in a array upto the given range?
 public class Demo31 {
     public static void main(String[] args) {
         int n = 2;

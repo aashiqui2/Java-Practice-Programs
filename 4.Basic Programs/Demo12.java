@@ -1,4 +1,3 @@
-//! Write a program to find the given number neon and spy number?
 public class Demo12 {
     public static void main(String[] args) {
         isNeon(9);

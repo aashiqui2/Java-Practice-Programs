@@ -1,5 +1,3 @@
-//! Write a program to find the highest and lowest frequency of element in an array?
-
 import java.util.HashMap;
 import java.util.Map;
 

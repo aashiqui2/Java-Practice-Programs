@@ -1,4 +1,3 @@
-//! Write a program to find the frequency of each elements?
 import java.util.*;
 
 public class Demo17 {

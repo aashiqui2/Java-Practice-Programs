@@ -1,4 +1,3 @@
-//! Write a program to print the sum of digit?
 public class Demo7 {
     public static void main(String[] args) {
         sum_of_digit(1234);

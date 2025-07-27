@@ -1,4 +1,3 @@
-//! Write a program to find the power of a given Numbers?
 public class Demo14 {
     public static void main(String[] args) {
         double base = 2;

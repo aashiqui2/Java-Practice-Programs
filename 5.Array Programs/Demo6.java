@@ -1,4 +1,3 @@
-//! Write a program to rotate the array to Left by k places?
 public class Demo6 {
     // ! Brute Force approach
     /* public static void rotateToLeft(int[] arr, int n, int k) {
