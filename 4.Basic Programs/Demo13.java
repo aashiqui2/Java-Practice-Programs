@@ -1,6 +1,7 @@
 public class Demo13 {
     public static void main(String[] args) {
         find_Square_Root(16);
+        SquareRoot(25);
     }
 
     // ! Brute Force Approach
@@ -39,4 +40,19 @@ public class Demo13 {
         System.out.println(result);
     }
     //! Time Complexity O(log n)
+
+    //! Newton Raphson Formulae
+    public static void SquareRoot(int n)
+    {
+        double guess=n/2;
+        double epsilion=1e-6;
+        while(Math.abs(guess*guess-n)>epsilion)
+        {
+            guess=(guess+n/guess)/2;
+        }
+        System.out.println(guess);
+    }
 }
+
+      
+              

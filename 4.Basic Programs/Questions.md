@@ -43,7 +43,7 @@
 
 22. Write a program to insert a element in a specified position?
 
-23. Write a program to remove duplicated ina  sorted array?
+23. Write a program to remove duplicated in a  sorted array?
 
 24. Write a program to delete a element from the array and return the resized array?
 
@@ -60,7 +60,7 @@
 30. Write a program to find the sum of digit until a single digit?
 Problem: [258. Add Digtis](https://leetcode.com/problems/add-digits/description/)
 
-31. Write a program to store the binary number in a array upto the given range?
+31. Write a program to store the Counting Bits in a array upto the given range?
 Problem: [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
 
 32. Write a program to find the triplet sum of a given number?
@@ -68,3 +68,7 @@ Problem: [338. Counting Bits](https://leetcode.com/problems/counting-bits/descri
 33. Write a program to check the perfect Number ot not?
 
 34. Write a program to print the  Prime Factor of a number?
+
+35. Write a program to find the matrix multiplication?
+
+36 Write a program to find the matrix addition?
