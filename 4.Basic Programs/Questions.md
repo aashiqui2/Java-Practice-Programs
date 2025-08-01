@@ -71,4 +71,7 @@ Problem: [338. Counting Bits](https://leetcode.com/problems/counting-bits/descri
 
 35. Write a program to find the matrix multiplication?
 
-36 Write a program to find the matrix addition?
+36. Write a program to find the matrix addition?
+
+37. Write a program to transpose the matrix?
+
