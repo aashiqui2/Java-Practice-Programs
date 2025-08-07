@@ -1,33 +1,36 @@
 public class Demo37 {
-
     public static void main(String[] args) {
-        int a[][] = { { 1, 2, 3 },
-                { 4, 5, 6 }
-        };
-        int b[][] = { { 7, 8 },
-                { 9, 10 },
-                { 11, 12 }
-        };
-        int m = a.length;
-        int n = a[0].length;
-        int p = b[0].length;
-        int res[][] = new int[m][p];
-        if (n == b.length) {
-            for (int i = 0; i < m; i++) {
-                for (int j = 0; j < p; j++) {
-                    for (int k = 0; k < n; k++) {
-                        res[i][j] += a[i][k] * b[k][j];
-                    }
-                }
+
+       int matrix[][]={{1,2,3},{4,5,6},{7,8,9}};
+       int rows=3,cols=3;
+
+        /* int[][] transpose = new int[cols][rows];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                transpose[j][i] = matrix[i][j];
+            }
+        } */
+
+        int n = matrix.length; 
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
-        for(int [] row: res)
-        {
-            for(int val:row)
-            {
-                System.out.print(val+" ");
+
+        System.out.println("Transpose of the matrix:");
+        for (int i = 0; i < cols; i++) {
+            for (int j = 0; j < rows; j++) {
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
-        }
+        }   
     }
 }
+
+
+
+    

@@ -1,12 +1,12 @@
 public class Demo16 {
     public static void main(String[] args) {
         String str = " ABCDCBA ";
-        boolean ans = isPalindrome(str);
+        /* boolean ans = isPalindrome(str);
         if (ans == true) {
             System.out.println("Palindrome");
         } else {
             System.out.println("Not Palindrome");
-        }
+        } */
         String s = "madam";
         System.out.println(palindrome(0,s));
     }

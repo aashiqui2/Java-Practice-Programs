@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Demo32 {
     public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;

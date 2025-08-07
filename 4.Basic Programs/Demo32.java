@@ -23,6 +23,7 @@ public class Demo32 {
         return false;
     } */
     //? Time Complexity : O(n^3)
+
     public static boolean hasTripletSum(int a[], int target) {
         int n=a.length;
         Arrays.sort(a);
@@ -47,6 +48,4 @@ public class Demo32 {
         
         return false;
     }
-
-
 }

@@ -6,7 +6,7 @@ Write a program to find the largest element in an array.
 ## 2. Find the Second Largest Element in an Array
 Write a program to find the second largest element in an array.
 
-## 3. Check if the Given Array is Sorted and Rotated
+## 3. Check if the Given Array is Sorted and Rotated[Contains duplicate]
 Problem: [1752. Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
 
 ## 4. Remove Duplicates in a Sorted Array
@@ -100,4 +100,81 @@ Problem:[238. Product of array except Itself](https://leetcode.com/problems/prod
 
 
 ## Array Problems (Hard)
+
+## 34. Program to generate Pascal's Triangle (variant 1)
+
+## 35. Program to generate Pascal's Triangle (variant 2)
+
+## 36. Program to generate Pascal's Triangle (variant 3)
+Problem:[118.Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
+
+## 37. Majority Elements(>=N/3 times) 
+Problem:[229.Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)
+
+## 38. Three Sum : Find triplets that add up to a zero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 2d Arrasy Problem
+| Problem                                                                                                       | Difficulty | Topics             |
+| ------------------------------------------------------------------------------------------------------------- | ---------- | ------------------ |
+| [🔗 48. Rotate Image](https://leetcode.com/problems/rotate-image/)                                            | Medium     | Matrix, Simulation |
+| [🔗 73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                                  | Medium     | Matrix             |
+| [🔗 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                          | Medium     | Matrix, Simulation |
+| [🔗 566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)                               | Easy       | Matrix             |
+| [🔗 867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)                                   | Easy       | Matrix             |
+| [🔗 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                | Medium     | Binary Search      |
+| [🔗 240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                         | Medium     | Binary Search      |
+| [🔗 1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)                            | Easy       | Matrix             |
+| [🔗 985. Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | Medium     | Matrix Simulation  |
+| [🔗 118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                  | Easy       | Matrix             |
+
+
+
+| Problem                                                                       | Difficulty | Topics                   |
+| ----------------------------------------------------------------------------- | ---------- | ------------------------ |
+| [🔗 36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)            | Medium     | Hashing, 2D Array        |
+| [🔗 200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium     | DFS, BFS                 |
+| [🔗 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)     | Medium     | BFS, Grid                |
+| [🔗 79. Word Search](https://leetcode.com/problems/word-search/)              | Medium     | Backtracking             |
+| [🔗 463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)   | Easy       | Simulation               |
+| [🔗 1051. Height Checker](https://leetcode.com/problems/height-checker/)      | Easy       | Sorting                  |
+| [🔗 542. 01 Matrix](https://leetcode.com/problems/01-matrix/)                 | Medium     | BFS, Dynamic Programming |
+| [🔗 36. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)    | Medium     | Simulation               |
+
 
