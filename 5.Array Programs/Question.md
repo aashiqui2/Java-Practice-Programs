@@ -112,6 +112,10 @@ Problem:[118.Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/d
 Problem:[229.Majority Element II](https://leetcode.com/problems/majority-element-ii/description/)
 
 ## 38. Three Sum : Find triplets that add up to a zero
+Problem: [15.3Sum](https://leetcode.com/problems/3sum/description/)
+
+## 39. 4 Sum | Find Quads that add up to a target value
+Problem:[18.4sum](https://leetcode.com/problems/4sum/description/)
 
 
 
