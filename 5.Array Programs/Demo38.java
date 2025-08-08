@@ -78,7 +78,7 @@ public class Demo38 {
         }
         return ans;
     }
-    //? Time Complexity:  O(NlogN)+O(N2)
+    //? Time Complexity:  O(NlogN)+O(N^2)
 
     public static void main(String[] args) {
         int[] arr = { -1, 0, 1, 2, -1, -4 };

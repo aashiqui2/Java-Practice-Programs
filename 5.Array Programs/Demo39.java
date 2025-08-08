@@ -42,8 +42,7 @@ public class Demo39 {
             for (int j = i + 1; j < n; j++) {
                 Set<Long> hashset = new HashSet<>();
                 for (int k = j + 1; k < n; k++) {
-                    // taking bigger data type
-                    // to avoid integer overflow:
+                    // taking bigger data type to avoid integer overflow:
                     long sum = nums[i] + nums[j];
                     sum += nums[k];
                     long fourth = target - sum;
@@ -56,7 +55,6 @@ public class Demo39 {
                         temp.sort(Integer::compareTo);
                         st.add(temp);
                     }
-                    // put the kth element into the hashset:
                     hashset.add((long) nums[k]);
                 }
             }

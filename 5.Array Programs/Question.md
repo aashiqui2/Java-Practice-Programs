@@ -117,6 +117,11 @@ Problem: [15.3Sum](https://leetcode.com/problems/3sum/description/)
 ## 39. 4 Sum | Find Quads that add up to a target value
 Problem:[18.4sum](https://leetcode.com/problems/4sum/description/)
 
+## 40. Length of the longest subarray with zero Sum
+Problem:(https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/)
+
+## 41. Count the number of subarrays with given xor K
+Problem:(https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/)
 
 
 

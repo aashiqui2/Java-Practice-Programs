@@ -75,3 +75,23 @@ Problem: [338. Counting Bits](https://leetcode.com/problems/counting-bits/descri
 
 37. Write a program to transpose the matrix?
 
+38. Write a program to sort the evn and odd element ?
+Problem:[905.Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/description/)
+
+39. Write a progam to find the Diagonal Sum?
+
+40. Write a program to find the the array contains Duplicate element or not?
+Problem:[217.Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+
+41. Write a program to find the closest number equal to zero?
+Problem:[2239.find closest Number to zero](https://leetcode.com/problems/find-closest-number-to-zero/)
+
+42. Write  a prtogram to remove the duplicate element in the array and return unique?
+Problem:[27.remove element](https://leetcode.com/problems/remove-element/description/)
+
+43. Write a program t return the largest postive integer that exist with negative integer?
+Problem:[2441.largest Postive exist with negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)
+
+
+44. Write a program to find the maximum possibe sum by picking the elemnt from both side  from either left or right end of the array A to get maximum sum.
+Problem:[2656.Maximumsum witrh exatly K elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/)
